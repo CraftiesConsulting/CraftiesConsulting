@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
+    Mail::raw('Laravel with Mailgun is easy!', function($message)
+    {
+        $message->to('alabamustapha@gmail.com');
+    });
     return view('welcome');
 });

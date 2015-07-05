@@ -15,24 +15,24 @@ return [
     */
 
     'mailgun' => [
-        'domain' => '',
-        'secret' => '',
+        'domain' => 'mg.craftiesconsulting.com',
+        'secret' => 'key-dbdcd3a29c6e9f7481bb6318cbc32fce',
     ],
 
-    'mandrill' => [
-        'secret' => '',
-    ],
-
-    'ses' => [
-        'key'    => '',
-        'secret' => '',
-        'region' => 'us-east-1',
-    ],
-
-    'stripe' => [
-        'model'  => App\User::class,
-        'key'    => '',
-        'secret' => '',
-    ],
+//    'mandrill' => [
+//        'secret' => '',
+//    ],
+//
+//    'ses' => [
+//        'key'    => '',
+//        'secret' => '',
+//        'region' => 'us-east-1',
+//    ],
+//
+//    'stripe' => [
+//        'model'  => App\User::class,
+//        'key'    => '',
+//        'secret' => '',
+//    ],
 
 ];
