@@ -3,7 +3,7 @@
 					<div class="container container-header">
 						<div class="navbar-header">
 							<!-- Brand -->
-							<a href="index.html" class="navbar-brand">
+							<a href="{{ url('/') }}" class="navbar-brand">
 								<img src="images/logo.png" class="raleway-logo" alt="Carfties Consulting">
 							</a>
 							<!-- Mobile Navigation -->
@@ -18,18 +18,18 @@
 						<!-- Main Navigation -->
 						<nav class="navbar-collapse collapse navHeaderCollapse" role="navigation">
 							<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a>Home</a></li>
+							<li class="active"><a href="{{ url('/') }}">Home</a></li>
 							<li class=""><a>About</a></li>
 						        <li class="dropdown">
 						        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="300" data-close-others="true">Services<span class="fa fa-angle-down dropdown-arrow"></span></a>
 						        	<ul class="dropdown-menu">
 						          		<li class="dropdown-submenu"><a href="#">IT Solutions</a>
                                             <ul class="dropdown-menu">
-                                                <li><a href="index.html">Web Portals</a></li>
-                                                <li><a href="index-home.html">SMEs Websites</a></li>
-                                                <li><a href="index-home.html">School Site Nigeria</a></li>
-                                                <li><a href="index.html">E-Libray</a></li>
-                                                <li><a href="index.html">E-Voting</a></li>
+                                                <li><a href="#">Web Portals</a></li>
+                                                <li><a href="#">SMEs Websites</a></li>
+                                                <li><a href="#">School Site Nigeria</a></li>
+                                                <li><a href="#">E-Libray</a></li>
+                                                <li><a href="#">E-Voting</a></li>
                                             </ul>
 						        	    </li>
 						          		<li class="dropdown-submenu"><a href="#">Academy</a>
@@ -38,7 +38,7 @@
 						          		        <li><a>School to work</a></li>
 						          		    </ul>
 						          		</li>
-						          		<li><a>Training</a></li>
+						          		<li><a href="#">Training</a></li>
 						        	</ul>
 						        </li>
 						          <li class="dropdown">
