@@ -13,6 +13,10 @@
 
 			    </header><!-- /header -->
 			<!-- End Header -->
+
+				<!-- Begin Carousel -->
+            			@include('layouts.partials.home_nav')
+            	<!-- End Carousel -->
             </div>
      </div>
 

@@ -44,14 +44,14 @@
 						          <li class="dropdown">
 						        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="300" data-close-others="true">Products<span class="fa fa-angle-down dropdown-arrow"></span></a>
 						        	<ul class="dropdown-menu">
-						          		<li><a href="index.html">iVote</a></li>
-						          		<li><a href="index-home.html">School Site Nigeria</a></li>
-						          		<li><a href="index-home.html">Virtual Library</a></li>
-						          		<li><a href="index-home.html">Computer Based Test</a></li>
+						          		<li><a href="#">iVote</a></li>
+						          		<li><a href="#">School Site Nigeria</a></li>
+						          		<li><a href="#">Virtual Library</a></li>
+						          		<li><a href="#">Computer Based Test</a></li>
 						        	</ul>
 						        </li>
 						        <li><a href="">Blog</a></li>
-						        <li><a href="">Contact</a></li>
+						        <li><a href="{{ url('contact') }}">Contact</a></li>
 								<li class="dropdown">
 			                    	<a href="#" class="dropdown-toggle dropdown-form-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
 			                        <ul class="dropdown-menu dropdown-menu-user">
