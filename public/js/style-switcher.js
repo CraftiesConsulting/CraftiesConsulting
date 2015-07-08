@@ -1,5 +1,5 @@
 (function($) {
-    var styleName = "seagul";
+    var styleName = "seagul.css";
     $(document).ready(function() {
         $('.styleswitch').click(function() {
             switchStylestyle(this.getAttribute("data-rel"));
