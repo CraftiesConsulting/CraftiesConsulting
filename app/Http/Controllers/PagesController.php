@@ -21,6 +21,10 @@ class PagesController extends Controller
                     ->cc('info@craftiesconsulting.com');
             $message->replyTo($sender_email);
         });
+
+        return Redirect::back()->with('message', "We will get back shortly");
     }
+
+
 
 }
