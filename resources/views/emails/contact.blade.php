@@ -5,6 +5,6 @@
 <title>Sent from craftiesconsulting.com</title>
 </head>
 <body>
-  {{ $body }}
+  {{ "sending" }}
 </body>
 </html>
