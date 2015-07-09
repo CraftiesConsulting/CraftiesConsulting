@@ -22,7 +22,7 @@ class PagesController extends Controller
             $message->replyTo($sender_email);
         });
 
-        return Redirect::back()->with('message', "We will get back shortly");
+        return back()->with('message', "We will get back shortly");
     }
 
 
