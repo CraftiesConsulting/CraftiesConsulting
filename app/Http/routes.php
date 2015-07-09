@@ -36,7 +36,7 @@ Route::post('contact', function(){
 
         Mail::raw('Laravel with Mailgun is easy!', function($message)
     {
-        $message->to('alabamustapha@gmail.com');
+        $message->to('info@craftiesconsulting.com')->cc('alabamustapha@gmail.com');
     });
 
     return Redirect::back();
