@@ -23,21 +23,5 @@ Route::get('contact', function(){
    return view('pages.contact');
 });
 
-Route::post('contact', function(){
-    $from = Input::get('email');
-    $sender = Input::get('name');
-    $body = Input::get('message');
-    $data = array($from, $sender, $body);
-//    Mail::send('emails.contact', $data, function($message)
-//    {
-//        $message->to('craftiesconsulting@gmail.com');
-//
-//    });
+Route::post('contact', 'PagesController@sendMail');
 
-        Mail::raw('Laravel with Mailgun is easy!', function($message)
-    {
-        $message->to('info@craftiesconsulting.com')->cc('alabamustapha@gmail.com');
-    });
-
-    return Redirect::back();
-});

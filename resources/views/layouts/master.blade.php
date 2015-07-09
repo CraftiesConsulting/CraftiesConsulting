@@ -26,7 +26,7 @@
 	<link href="css/owl.carousel.css" rel="stylesheet" >
 	<link href="css/jquery.snippet.css" rel="stylesheet">
 	<link href="css/buttons.css" rel="stylesheet">
-	<link href="css/style-switcher.css" rel="stylesheet">
+	{{--<link href="css/style-switcher.css" rel="stylesheet">--}}
 
 	<!-- Alternate Stylesheets // choose what you want and remove rest for production -->
 	<link rel="alternate stylesheet" type="text/css" href="css/colors/seagul.css" title="seagul">
