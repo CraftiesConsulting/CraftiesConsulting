@@ -14,7 +14,7 @@ class PagesController extends Controller
         $sender_name = $request->input('name');
         $message = $request->input('message');
 
-        Mail::send('emails.contact', ['body', $message], function ($message) use ($sender_email, $sender_name) {
+        Mail::send('emails.contact', ['body' => $message], function ($message) use ($sender_email, $sender_name) {
             $message->from($sender_email, $sender_name);
             $message->to('craftiesconsulting@gmail.com')
                     ->cc('alabamustapha@gmail.com')
