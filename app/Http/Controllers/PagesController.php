@@ -9,20 +9,24 @@ use App\Http\Controllers\Controller;
 
 class PagesController extends Controller
 {
-    public function sendMail(Request $request){
+    public function sendMail(Requests\ContactFormRequest $request){
         $sender_email = $request->input('email');
         $sender_name = $request->input('name');
-        $message = $request->input('message');
-
-        Mail::send('emails.contact', ['body' => $message], function ($message) use ($sender_email, $sender_name) {
+        $message = $request->input('message_body');
+        $data = array(
+            'message_body'=> $message,
+            'sender_name'=> $sender_name,
+            'sender_email'=> $sender_email
+        );
+        Mail::send('emails.contact', $data, function ($message) use ($sender_email, $sender_name) {
             $message->from($sender_email, $sender_name);
             $message->to('craftiesconsulting@gmail.com')
-                    ->cc('alabamustapha@gmail.com')
                     ->cc('info@craftiesconsulting.com');
             $message->replyTo($sender_email);
         });
 
-        return back()->with('message', "We will get back shortly");
+        return redirect('contact')
+            ->with('message', 'Thanks for contacting us!');
     }
 
 

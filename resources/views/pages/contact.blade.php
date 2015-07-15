@@ -33,6 +33,17 @@
                 						<div class="col-sm-8">
                 							<div class="heading mb20"><h4><span class="ion-android-mail mr15"></span>Send us a Message</h4></div>
                 							<p class="mb20">for enquiries and complaints, we are always available</p>
+                							<ul>
+                                                @foreach($errors->all() as $error)
+                                                    <li class="text-danger">{{ $error }}</li>
+                                                @endforeach
+                                            </ul>
+                                            @if(Session::has('message'))
+                                                <div class="alert alert-info alert-dismissible" role="alert">
+                                                  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                  <strong>{{Session::get('message')}}</strong>
+                                                </div>
+                                            @endif
                 							<form role="form" method="post" action="{{ url('contact') }}">
                 							    <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 			                    <div class="form-group">
@@ -42,7 +53,7 @@
                 			                        <input name="email" type="email" placeholder="Email Address" class="form-control" id="InputEmail1">
                 			                    </div>
                 			                    <div class="form-group">
-                			                        <textarea name="body" class="form-control" placeholder="Message" id="InputMessage" rows="7"></textarea>
+                			                        <textarea name="message_body" class="form-control" placeholder="Message" id="message_body" rows="7"></textarea>
                 			                    </div>
                 			                    <button type="submit" class="btn btn-rw btn-primary">Submit</button>
                 			                </form>

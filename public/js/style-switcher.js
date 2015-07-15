@@ -1,18 +1,11 @@
 (function($) {
     var styleName = "seagul";
+
     $(document).ready(function() {
-        $('.styleswitch').click(function() {
-            switchStylestyle(this.getAttribute("data-rel"));
-            return false;
-        });
-        $('.styleswitch2').click(function() {
-            switchStylestyle2(this.getAttribute("data-rel"));
-            return false;
-        });
+        switchStylestyle(styleName);
         var c = readCookie('style');
         if (c) switchStylestyle(c);
-        var c2 = readCookie('style2');
-        if (c2) switchStylestyle2(c2);
+
     });
 
     function switchStylestyle(styleName) {
@@ -23,13 +16,7 @@
         createCookie('style', styleName, 365);
     }
 
-    function switchStylestyle2(styleName) {
-        $('link[href^="css/width"][title]').each(function(i) {
-            this.disabled = true;
-            if (this.getAttribute('title') == styleName) this.disabled = false;
-        });
-        createCookie('style2', styleName, 365);
-    }
+
 })(jQuery);
 
 function createCookie(name,value,days)
@@ -60,16 +47,3 @@ function eraseCookie(name)
 	createCookie(name,"",-1);
 }
 
-// DEMO Swticher Base
-jQuery('.demo_changer .demo-icon').click(function(){
-
-	if(jQuery('.demo_changer').hasClass("active")){
-		jQuery('.demo_changer').animate({"left":"-160px"},function(){
-			jQuery('.demo_changer').toggleClass("active");
-		});						
-	}else{
-		jQuery('.demo_changer').animate({"left":"0px"},function(){
-			jQuery('.demo_changer').toggleClass("active");
-		});			
-	} 
-});
