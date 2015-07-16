@@ -46,7 +46,7 @@
 						<div class="col-sm-3 hidden-xs">
 							<div class="heading-footer"><h4>Recent Work</h4></div>
 							<div class="col-xs-4 recent-work-padding">
-								<a href="http://www.almawridschoools.com" class="thumbnail">
+								<a href="http://www.almawridschools.com" class="thumbnail">
 							      <img src="images/projects/thumbs/almawridschool.jpg" alt="almawridschools" title="Almawrid Schools Website" class="thumbnail img-responsive">
 							    </a>
 							</div>
