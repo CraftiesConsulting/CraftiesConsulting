@@ -18,7 +18,7 @@
 						<!-- Main Navigation -->
 						<nav class="navbar-collapse collapse navHeaderCollapse" role="navigation">
 							<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="{{ url('/') }}">Home</a></li>
+							<li class="<?php if($active == "home"){ echo "active"; }?>"><a href="{{ url('/') }}">Home</a></li>
 							<li class=""><a>About</a></li>
 						        <li class="dropdown">
 						        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="300" data-close-others="true">Services<span class="fa fa-angle-down dropdown-arrow"></span></a>
@@ -51,7 +51,7 @@
 						        	</ul>
 						        </li>
 						        <li><a href="">Blog</a></li>
-						        <li><a href="{{ url('contact') }}">Contact</a></li>
+						        <li class="<?php if($active == 'contact') echo "active";  ?>"><a href="{{ url('contact') }}">Contact</a></li>
 								<li class="dropdown">
 			                    	<a href="#" class="dropdown-toggle dropdown-form-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
 			                        <ul class="dropdown-menu dropdown-menu-user">

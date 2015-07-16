@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
-	<meta name="author" content="Alaba mustapha, crafties consulting ilorin, IT solution, It firm iloin" />
+	<meta name="author" content="Alaba mustapha, crafties consulting ilorin, IT solution, It firm ilorin" />
 	<meta name="description" content="Carfties consulting limited, ICT ilorin, IT firm Ilorin, IT training center ilorin">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -11,9 +11,6 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<title>Crafties Consulting Limited</title>
-
-	<!-- Royal Preloader CSS -->
-	<link rel="stylesheet" type="text/css" href="css/royal_preloader.css">
 
 	<!-- jQuery Files -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -49,7 +46,6 @@
 	<script type="text/javascript" src="js/hover-dropdown.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-	<script type="text/javascript" src="js/scrollReveal.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 	<script type="text/javascript" src="js/jquery.snippet.min.js"></script>

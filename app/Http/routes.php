@@ -11,17 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-//    Mail::raw('Laravel with Mailgun is easy!', function($message)
-//    {
-//        $message->to('alabamustapha@gmail.com');
-//    });
-    return view('pages.home');
-});
-
-Route::get('contact', function(){
-   return view('pages.contact');
-});
-
+Route::get('/', 'PagesController@index');
+Route::get('contact', 'PagesController@contact');
 Route::post('contact', 'PagesController@sendMail');
 

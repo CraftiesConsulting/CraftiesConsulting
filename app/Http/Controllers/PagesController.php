@@ -9,6 +9,15 @@ use App\Http\Controllers\Controller;
 
 class PagesController extends Controller
 {
+
+    public function index(){
+        return view('pages.home')->with('active', 'home');
+    }
+
+    public function contact(){
+        return view('pages.contact')->with('active', 'contact');
+    }
+
     public function sendMail(Requests\ContactFormRequest $request){
         $sender_email = $request->input('email');
         $sender_name = $request->input('name');
@@ -28,7 +37,4 @@ class PagesController extends Controller
         return redirect('contact')
             ->with('message', 'Thanks for contacting us!');
     }
-
-
-
 }
