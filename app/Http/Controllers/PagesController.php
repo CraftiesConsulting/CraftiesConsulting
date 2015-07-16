@@ -20,8 +20,8 @@ class PagesController extends Controller
         );
         Mail::send('emails.contact', $data, function ($message) use ($sender_email, $sender_name) {
             $message->from($sender_email, $sender_name);
-            $message->to('craftiesconsulting@gmail.com')
-                    ->cc('info@craftiesconsulting.com');
+            $message->to('info@craftiesconsulting.com')
+                    ->cc('craftiesconsulting@gmail.com');
             $message->replyTo($sender_email);
         });
 
