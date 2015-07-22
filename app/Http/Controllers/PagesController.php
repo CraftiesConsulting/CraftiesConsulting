@@ -18,6 +18,17 @@ class PagesController extends Controller
         return view('pages.contact')->with('active', 'contact');
     }
 
+    public function yibc(){
+        return view('pages.yibc')->with('active', 'services')->with('active1', 'academy')->with('active2', 'yibc');
+    }
+
+    public function yibc_download(){
+
+            $file = public_path() . "/downloads/yibc.pdf";
+            return response()->download($file, "yibc_form.pdf", array('Content-Type' => 'application.pdf'));
+
+    }
+
     public function sendMail(Requests\ContactFormRequest $request){
         $sender_email = $request->input('email');
         $sender_name = $request->input('name');

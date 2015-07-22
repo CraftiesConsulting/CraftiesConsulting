@@ -15,7 +15,8 @@
 			<!-- End Header -->
 
 				<!-- Begin Carousel -->
-            			@include('layouts.partials.home_nav')
+            			@include('layouts.partials.home_carousel')
+            			@include('layouts.partials.carousel_services')
             	<!-- End Carousel -->
             </div>
      </div>
