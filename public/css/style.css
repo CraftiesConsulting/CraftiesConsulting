@@ -785,11 +785,16 @@ ul.list-arrow-2-color li:before {
 .css-logo { float:left; margin-right:8px; height:19px; width:19px; border-radius:19px; background-color:#ff7454;margin-top:5px; }
 
 .raleway-logo {
-	width:115px;
-	height:30px;
+    width: 235px;
+    height: 61px;
+    margin-top: 8px;
 	float:right;
 }
 
+a.navbar-brand{
+    padding: 0;
+    margin: 0;
+}
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
 	margin-left:0;
 }
