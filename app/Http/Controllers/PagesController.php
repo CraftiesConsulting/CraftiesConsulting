@@ -24,8 +24,8 @@ class PagesController extends Controller
 
     public function yibc_download(){
 
-            $file = public_path() . "/downloads/yibc.pdf";
-            return response()->download($file, "yibc_form.pdf", array('Content-Type' => 'application.pdf'));
+            $file = public_path() . "/downloads/yibc_application_form.pdf";
+            return response()->download($file, "yibc_application_form.pdf", array('Content-Type' => 'application.pdf'));
 
     }
 
