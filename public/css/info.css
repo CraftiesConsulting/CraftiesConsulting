@@ -1,52 +1,51 @@
-#switcher-body .container {
+#info-body .container {
 	background:#fff;
 	margin:50px auto;
 	border:1px solid #dedede;
-	padding:40px;
+	padding:0px;
 }
-.demo_changer{ 
+.info_box{
     z-index: 1000; 
     position: fixed;
-
-    left: -161px;
+    left: -181px;
     top: 60px; 
     font-weight: 400 !important;
 }
-.demoPanel {
+.infoPanel {
 	position:relative;
 }
-.demo_changer p {
+.info_box p {
 	margin:10px 0;
 }
-.demo_changer .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+.info_box .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
 	background:#fff;
 }
-.demo_changer h4 {
+.info_box h4 {
 	margin:10px 0 !important;
 	color: #545454 !important;
 	text-transform:none !important;
 	font-family: 'PT Sans',sans-serif;
 }
 
-.demo_changer hr {
+.info_box hr {
 	border-color:#E0E0E0;
     margin-top:15px;
     margin-bottom: 15px;
 }
-.demo_changer,
-.demo_changer p {
+.info_box,
+.info_box p {
 	color:#545454 !important;
 }
-.demo_changer h4 {
+.info_box h4 {
 	color:#212121 !important;
     font-size: 14px;
     padding-bottom: 0;
 }
-.demo_changer i {
+.info_box i {
 	color:#fff;
 	font-size:21px;
 }
-.demo_changer .demo-icon{
+.info_box .info-icon{
     cursor: pointer;
 	text-align:center;
 	background:#F7C221;
@@ -59,7 +58,7 @@
 	border-radius:0 20px 20px 0;
     width:40px;
 }
-.demo_changer .form_holder {
+.info_box .form_holder {
 	border: 1px solid #ddd;
 	border-radius: 0 0 14px 0;
 	cursor: pointer;
@@ -75,22 +74,22 @@
 	background: linear-gradient(to bottom,  #ffffff 0%,#eaeaea 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); /* IE6-8 */	
     float: right;
-	padding:20px;
-    width: 160px;
+	padding: 10px 10px;
+    width: 200px;
 }
-.demo_changer .form_holder p{
+.info_box .form_holder p{
     font-size: 12px;
 }
-.demoPanel {
+.infoPanel {
     margin: 0;
     padding: 0;
-    width: 125px;
+    width: 185px;
 }
 .predefined_styles{
     padding:0 5px;
 }
 @media only screen and (max-width: 768px) {
-.demo_changer{
+.info_box{
     top:155px;
 }
 } 

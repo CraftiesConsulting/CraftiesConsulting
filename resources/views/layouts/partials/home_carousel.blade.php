@@ -5,13 +5,29 @@
             						<li data-target="#carouselHome" data-slide-to="0" class="active"></li>
             						<li data-target="#carouselHome" data-slide-to="1"></li>
             						<li data-target="#carouselHome" data-slide-to="2"></li>
+            						<li data-target="#carouselHome" data-slide-to="3"></li>
             					</ol>
 
             					<!-- Begin Wrapper for slides -->
             					<div class="carousel-inner">
+                                    <!-- Begin Item 1 -->
+            						<div class="item active">
+            							<!-- Item BG -->
+            							<div class="background-main" style="background-image:url('images/backgrounds/bg_yibc.jpg');" data-0="background-position:0px 0px;" data-500="background-position:0px -250px;">
+            								<div class="container">
+            									<div class="row carousel-content center-vertically-right">
+            										<!-- Content -->
+            										<div class="fadeInRight-animated" data-animation="fadeInRight">
+            											<span class="fa fa-heartbeat fa-4x text-white carousel-title-bgdark"></span>
+            										</div>
+            									</div><!-- /content container -->
+            								</div><!-- /container -->
+            							</div><!-- /bg div -->
+            						</div><!-- /item -->
+            						<!-- End Item 1 -->
 
             						<!-- Begin Item 1 -->
-            						<div class="item active">
+            						<div class="item">
             							<!-- Item BG -->
             							<div class="background-main" style="background-image:url('images/backgrounds/bg1.png');" data-0="background-position:0px 0px;" data-500="background-position:0px -250px;">
             								<div class="container">
@@ -33,7 +49,6 @@
             							</div><!-- /bg div -->
             						</div><!-- /item -->
             						<!-- End Item 1 -->
-
             						<!-- Begin Item 2 -->
             						<div class="item">
             							<!-- Item BG -->

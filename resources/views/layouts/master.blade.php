@@ -23,7 +23,7 @@
 	<link href="css/owl.carousel.css" rel="stylesheet" >
 	<link href="css/jquery.snippet.css" rel="stylesheet">
 	<link href="css/buttons.css" rel="stylesheet">
-	{{--<link href="css/style-switcher.css" rel="stylesheet">--}}
+    <link href="css/info.css" rel="stylesheet">	{{--<link href="css/style-switcher.css" rel="stylesheet">--}}
 
 	<!-- Alternate Stylesheets // choose what you want and remove rest for production -->
 	<link rel="alternate stylesheet" type="text/css" href="css/colors/seagul.css" title="seagul">
@@ -38,6 +38,27 @@
 	<link href='css/magnific-popup.css' rel='stylesheet' type='text/css'>
 </head>
 <body class="">
+<!-- Start Switcher -->
+	<div class="info_box">
+	    <div class="info-icon">
+	        <i class="fa fa-info fa-spin fa-2x"></i>
+	    </div><!-- end opener icon -->
+	    <div class="form_holder">
+	        <div class="row">
+	            <div class="col-sm-12">
+	                <div class="predefined_styles">
+	                        <h4>Upcoming event</h4>
+	                        <hr>
+                            <img src="images/yibc_flier.jpg" alt="Young innovators boot camp">
+                            <hr>
+                            <a href="{{ url('yibc') }}" title="Young innovators Boot camp" class="button button-glow button-border button-rounded button-primary">Read more</a>
+	                </div><!-- end predefined_styles -->
+	            </div><!-- end col -->
+	        </div><!-- end row -->
+	    </div><!-- end form_holder -->
+	</div><!-- end demo_changer -->
+	<!-- End Switcher -->
+
 
 @yield('content')
 
@@ -51,6 +72,7 @@
 	<script type="text/javascript" src="js/jquery.snippet.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fitvids.js"></script>
 	<script type="text/javascript" src="js/style-switcher.js"></script>
+	<script type="text/javascript" src="js/info-switcher.js"></script>
 	<script type="text/javascript" src="js/activate-snippet.js"></script>
 	<script type="text/javascript" src="js/skrollr.min.js"></script>
     <script>
