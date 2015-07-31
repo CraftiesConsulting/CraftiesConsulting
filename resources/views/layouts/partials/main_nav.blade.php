@@ -32,13 +32,13 @@
                                                 <li><a href="#">E-Voting</a></li>
                                             </ul>
 						        	    </li>
-						          		<li class="dropdown-submenu?>"><a href="#">Academy</a>
+						          		<li class="dropdown-submenu?>"><a href="{{ url('academy') }}">Academy</a>
 						          		    <ul class="dropdown-menu">
 						          		        <li class=""><a href="{{ url('yibc') }}">Bootcamp</a></li>
 						          		        <li><a>School to work</a></li>
 						          		    </ul>
 						          		</li>
-						          		<li><a href="#">Training</a></li>
+						          		<li><a href="{{ url('training') }}">Training</a></li>
 						        	</ul>
 						        </li>
 						          <li class="dropdown">

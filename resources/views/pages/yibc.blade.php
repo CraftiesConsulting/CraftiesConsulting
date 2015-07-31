@@ -52,9 +52,8 @@
                                             							    <li><a href="#tab2" role="tab" data-toggle="tab">Our approach</a></li>
                                             							    <li><a href="#tab3" role="tab" data-toggle="tab">Key Deliverables</a></li>
                                             							    <li><a href="#tab4" role="tab" data-toggle="tab">Eligibility</a></li>
-                                            							    <li><a href="#tab5" role="tab" data-toggle="tab">Key Deliverables</a></li>
-                                            							    <li><a href="#tab6" role="tab" data-toggle="tab">Registration Details</a></li>
-                                            							    <li><a href="#tab7" role="tab" data-toggle="tab">FAQs</a></li>
+                                            							    <li><a href="#tab5" role="tab" data-toggle="tab">Registration Details</a></li>
+                                            							    <li><a href="#tab6" role="tab" data-toggle="tab">FAQs</a></li>
                                             							</ul>
                                             							<div class="tab-content">
                                             							    <div class="tab-pane in active" id="tab1">
@@ -99,37 +98,126 @@
                                                                                 courses.
                                                                                 For the Writing Course, at the end of the boot camp,
                                                                                 participants would:
-                                                                                Ø Have published a piece (poem, opinion, short story,
-                                                                                etc.) in the Teens/Children section of newspapers.
-                                                                                Ø Have written at least 50 pages of a publishable
-                                                                                manuscript
-                                                                                Ø Have been put in the right frame of mind to own and
-                                                                                manage their own writing blog.
-                                                                                Ø Have been exposed to the need to be financially
-                                                                                independent from a young age, and would have been
-                                                                                taught how to earn money legally through their
-                                                                                writing skills
+                                                                                <ul>
+                                                                                    <li>Have published a piece (poem, opinion, short story, etc.) in the Teens/Children section of newspapers.</li>
+                                                                                    <li>Have written at least 50 pages of a publishable manuscript</li>
+                                                                                    <li>Have been put in the right frame of mind to own and manage their own writing blog.</li>
+                                                                                    <li>Have been exposed to the need to be financially independent from a young age, and would have been taught how to earn money legally through their writing skills</li>
+                                                                                </ul>
+
+                                                                                For the Animation Design Course, at the end of the boot camp,
+                                                                                participants would have learnt:
+                                                                                <ul>
+                                                                                    <li>Animation's Principles and Techniques.</li>
+                                                                                    <li>Script Writing and Storyboarding</li>
+                                                                                    <li>Character Design, and Stop Motion Animation</li>
+                                                                                    <li>Own a blog and promote their work.</li>
+                                                                                    <li>Have been exposed to the need to be financially independent from a young age, and would have been taught how to earn money legally through making designs for clients and marketing their Animation Design skills.</li>
+                                                                                </ul>
                                             								    </p>
                                             								</div>
 
                                             								<div class="tab-pane" id="tab4">
-
+                                                                                   <p>
+                                                                                        To be considered eligible for the boot camp, participants must be
+                                                                                        between the ages of 11 and 16. Also, their registration form must
+                                                                                        have completed and submitted with parental consent. Furthermore,
+                                                                                        payment must be made latest by Saturday August 1st, 2015.
+                                                                                   </p>
                                             								</div>
 
                                             								<div class="tab-pane" id="tab5">
-
+                                                                                <p>
+                                                                                    To register your child or ward, please detach and fill the attached
+                                                                                    registration form or download and fill the registration form from our
+                                                                                    website via www.craftiesconsulting.com/yibc. Thereafter, bring
+                                                                                    completed registration form and the fee to our office at 14, Umaru
+                                                                                    Audi Road (Top Floor), Opposite Access Bank, Tanke Junction, G.R.A,
+                                                                                    Ilorin, Kwara State.You can also get the form for FREE at our office.
+                                                                                    For further enquires please contact Bello on 07033899757or
+                                                                                    Haleemah on 08021235721, info@craftiesconsulting.com
+                                                                                </p>
                                             								</div>
 
                                             								<div class="tab-pane" id="tab6">
+                                                                            <div class="row">
+                                                                                <div class="col-md-10">
+                                                                                    <!-- Accordion -->
+                                                                                        <div class="panel-group mt20 no-margin" id="accordion">
+                                                                                            <!-- Item 1 -->
+                                                                                            <div class="panel panel-default">
+                                                                                                <div class="panel-heading">
+                                                                                                  <h4 class="panel-title">
+                                                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                                                                        Q1: Must my child/ward have a flair for writing to take the writing course?
+                                                                                                    </a>
+                                                                                                  </h4>
+                                                                                                </div>
+                                                                                                <div id="collapseOne" class="panel-collapse collapse in">
+                                                                                                    <div class="panel-body">
+                                                                                                        No. While it is acknowledged that some people naturally possess writing skills which would be an added advantage; everybody has the need for good writing skills. Thus, anyone within the specified age range can take the writing course, irrespective of their passion or skill at writing.
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div><!-- /panel -->
 
+                                                                                            <!-- Item 2 -->
+                                                                                            <div class="panel panel-default">
+                                                                                                <div class="panel-heading">
+                                                                                                  <h4 class="panel-title">
+                                                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                                                                        Q2: Must my child/ward have a personal computer in order to take the Animation Design Course?
+                                                                                                    </a>
+                                                                                                  </h4>
+                                                                                                </div>
+                                                                                                <div id="collapseTwo" class="panel-collapse collapse">
+                                                                                                    <div class="panel-body">
+                                                                                                        <p>Yes. Every participant taking the Animation Design course MUST have a personal computer and bring it along daily. This is in order to ease learning, facilitate constant practice and make it possible for them to do take-home assignments.</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div><!-- /panel -->
+
+                                                                                            <!-- Item 3 -->
+                                                                                            <div class="panel panel-default">
+                                                                                                <div class="panel-heading">
+                                                                                                  <h4 class="panel-title">
+                                                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                                                                                        Q3: Must my child/ward be adept at the use of a computer to take the Animation Design Course?
+                                                                                                    </a>
+                                                                                                  </h4>
+                                                                                                </div>
+                                                                                                <div id="collapseThree" class="panel-collapse collapse">
+                                                                                                    <div class="panel-body">
+                                                                                                        <p>Not necessarily. However, participants should be able to perform
+                                                                                                        basic operations on the computer to aid quick assimilation of the
+                                                                                                        course.</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div><!-- /panel -->
+
+                                                                                            <!-- Item 4 -->
+                                                                                            <div class="panel panel-default">
+                                                                                                <div class="panel-heading">
+                                                                                                  <h4 class="panel-title">
+                                                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                                                                                        Q4: Can the payment be made in installments?
+                                                                                                    </a>
+                                                                                                  </h4>
+                                                                                                </div>
+                                                                                                <div id="collapseFour" class="panel-collapse collapse">
+                                                                                                    <div class="panel-body">
+                                                                                                        <h4><span class="ion-android-hand bordered-icon-sm mr15"></span> We can really help you with that.</h4>
+                                                                                                           <p>Yes. You can make payment in two installments. However, the first installment must be paid latest by Saturday August 1st, 2015 while the balance must be paid latest by Saturday August 8th, 2015.</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div><!-- /panel -->
+
+
+                                                                                        </div>
+                                                                                   <!-- /accordion -->
+                                                                                </div>
+                                                                            </div>
                                                                             </div>
 
-                                                                            <div class="tab-pane" id="tab7">
-
-                                                                            </div>
-                                                                            <div class="tab-pane" id="tab8">
-
-                                                                            </div>
                                             							</div>
                                             						</div><!-- /column -->
                                             						<!-- End Tabs -->

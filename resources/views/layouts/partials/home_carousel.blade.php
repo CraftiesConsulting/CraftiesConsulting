@@ -11,21 +11,55 @@
             					<!-- Begin Wrapper for slides -->
             					<div class="carousel-inner">
                                     <!-- Begin Item 1 -->
+            						{{--<div class="item active">--}}
+            							{{--<!-- Item BG -->--}}
+            							{{--<div class="background-main" style="background-image:url('images/backgrounds/bg_yibc.jpg');" data-0="background-position:0px 0px;" data-500="background-position:0px -250px;">--}}
+            								{{--<div class="container">--}}
+            									{{--<div class="row carousel-content center-vertically-right">--}}
+            										{{--<!-- Content -->--}}
+            										{{--<div class="fadeInRight-animated" data-animation="fadeInRight">--}}
+            											{{--<span class="fa fa-heartbeat fa-4x text-white carousel-title-bgdark"></span>--}}
+            										{{--</div>--}}
+            									{{--</div><!-- /content container -->--}}
+            								{{--</div><!-- /container -->--}}
+            							{{--</div><!-- /bg div -->--}}
+            						{{--</div><!-- /item -->--}}
+            						<!-- End Item 1 -->
+                                    <!-- Begin Item 2 -->
             						<div class="item active">
             							<!-- Item BG -->
-            							<div class="background-main" style="background-image:url('images/backgrounds/bg_yibc.jpg');" data-0="background-position:0px 0px;" data-500="background-position:0px -250px;">
+            							<div style="background-image:url('images/backgrounds/yibc_bg.png');" data-0="background-position:0px 0px;" data-500="background-position:0px -250px;">
             								<div class="container">
-            									<div class="row carousel-content center-vertically-right">
+            									<div class="row carousel-content center-vertically-left">
+            										<!-- Img -->
+            										<div class="fadeInLeft-animated" data-animation="fadeInLeft">
+            											<div class="col-sm-6 hidden-xs">
+            												<img src="images/yibc_1.png" class="img-responsive carousel-image" alt="Responsive Showcase">
+            											</div>
+            										</div>
             										<!-- Content -->
             										<div class="fadeInRight-animated" data-animation="fadeInRight">
-            											<span class="fa fa-heartbeat fa-4x text-white carousel-title-bgdark"></span>
+            											<div class="carousel-description mt10 col-sm-5 col-sm-offset-1">
+            												<h4 class="heavy text-white"><span class="carousel-title-bg">Young Innovators Bootcamp</span></h4>
+            												<h4 class="heavy text-white"><span class="carousel-title-bg"><span class="ion-plus"></span>Creative Writing</span></h4>
+            												<h4 class="heavy text-white"><span class="carousel-title-bg"><span class="ion-plus"></span>Animation Design</span></h4>
+            												<p>All humans are entrepreneurs not because they should start companies but because the will to create is encoded in human DNA - <span class="text-muted">Reid Hoffman</span> <br> Enroll your ward(s) between <b>Age 11 - 12</b> for the <a href="{{ url('yibc') }}">Young innovators Boot Camp</a> for creative writing or Animation design.</p>
+
+            												<h6 class="heavy text-white"><span class="carousel-title-bg"><span class="ion-plus"></span>&nbsp;Blogging, Public Speaking and enterprenuer development</span></h6>
+            												<a href="{{ url('yibc') }}" class="btn btn-rw btn-primary">
+            													Read more &nbsp;&nbsp;<span class="ion-ios7-arrow-right"></span>
+            												</a>
+            												OR
+            												<a href="{{ url('yibc') }}" class="btn btn-rw btn-primary">
+                                                                Download form &nbsp;&nbsp;<span class="ion-android-download"></span>
+                                                            </a>
+            											</div>
             										</div>
             									</div><!-- /content container -->
             								</div><!-- /container -->
             							</div><!-- /bg div -->
             						</div><!-- /item -->
-            						<!-- End Item 1 -->
-
+            						<!-- End Item 2 -->
             						<!-- Begin Item 1 -->
             						<div class="item">
             							<!-- Item BG -->

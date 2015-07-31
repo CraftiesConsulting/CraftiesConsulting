@@ -18,6 +18,14 @@ class PagesController extends Controller
         return view('pages.contact')->with('active', 'contact');
     }
 
+    public function academy(){
+        return view('pages.academy')->with('active', 'services');
+    }
+
+    public function training(){
+        return view('pages.training')->with('active', 'services');
+    }
+
     public function yibc(){
         return view('pages.yibc')->with('active', 'services')->with('active1', 'academy')->with('active2', 'yibc');
     }

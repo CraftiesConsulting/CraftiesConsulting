@@ -13,6 +13,8 @@
 
 Route::get('/', 'PagesController@index');
 Route::get('contact', 'PagesController@contact');
+Route::get('academy', 'PagesController@academy');
+Route::get('training', 'PagesController@training');
 Route::get('yibc', 'PagesController@yibc');
 Route::get('yibc_download', 'PagesController@yibc_download');
 Route::post('contact', 'PagesController@sendMail');
